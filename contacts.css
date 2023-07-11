@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #141C24;
+}
+
+html {
+    font-size: 21px;
+}
+
+.section-title {
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+    color: white;
+}
+
+.section-sub-title {
+    font-size: 0.7rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 0.7rem;
+    color: #57D6FF;
+}
+
+.section-link {
+    color: #00C5FF;
+    font-size: 0.7rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 0.7rem;
+    display: inline-block;
+}
+
+.section-btn {
+    display: inline-block;
+    position: relative;
+    z-index: 10;
+    padding: 15px 70px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    background: url("img/button.svg") center/cover no-repeat;
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.os {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.os-content {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.os-container {
+    width: 40%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.os-link {
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.os-title {
+    margin-bottom: 109px;
+}
+
+
+/* keyframes и media */
+
+
+
+
+@media screen and (max-width: 1400px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 670px) {}
+
+
+@media screen and (max-width: 375px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 900px) and (orientation:landscape) {}
